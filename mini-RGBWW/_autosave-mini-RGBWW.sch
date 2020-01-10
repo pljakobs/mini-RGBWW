@@ -1,0 +1,757 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12648 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1800 4600 1800 4500
+Text Label 1800 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 4600 2500 4500
+Text Label 2500 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	1800 3300 1800 3200
+Text Label 1800 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 3300 2500 3200
+Text Label 2500 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	4100 3100 4100 3000
+Wire Wire Line
+	4100 3000 4000 3000
+Text Label 4100 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	3300 4500 3300 4600
+Text Label 3300 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	4500 2100 4500 2200
+Text Label 4500 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	6400 2600 6400 2500
+Wire Wire Line
+	6400 2500 5800 2500
+Wire Wire Line
+	6400 2500 6400 2350
+Wire Wire Line
+	6400 2350 6400 2250
+Wire Wire Line
+	6400 2250 6400 2100
+Wire Wire Line
+	6400 2100 5800 2100
+Wire Wire Line
+	5600 2250 6400 2250
+Wire Wire Line
+	5600 2350 6400 2350
+Connection ~ 6400 2500
+Connection ~ 6400 2250
+Connection ~ 6400 2350
+Text Label 6400 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	9200 3700 9200 3600
+Text Label 9200 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	9700 3000 9900 3000
+Text Label 9700 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	10300 5000 10100 5000
+Text Label 10100 5000 0    70   ~ 0
+GND
+Wire Wire Line
+	3800 4000 3600 4000
+Wire Wire Line
+	3600 4000 3600 3900
+Wire Wire Line
+	3600 3900 3800 3900
+Wire Wire Line
+	3600 3900 3600 3700
+Wire Wire Line
+	3600 3700 3800 3700
+Wire Wire Line
+	3600 3700 3600 2800
+Wire Wire Line
+	3600 2800 4600 2800
+Wire Wire Line
+	4600 2800 4600 3100
+Wire Wire Line
+	4700 3100 4700 2800
+Wire Wire Line
+	4700 2800 4600 2800
+Wire Wire Line
+	3600 2800 2500 2800
+Wire Wire Line
+	2500 2900 2500 2800
+Wire Wire Line
+	2500 2800 1800 2800
+Wire Wire Line
+	1800 2800 1800 2900
+Wire Wire Line
+	1800 2800 1100 2800
+Connection ~ 3600 3900
+Connection ~ 3600 3700
+Connection ~ 4600 2800
+Connection ~ 3600 2800
+Connection ~ 2500 2800
+Connection ~ 1800 2800
+Text Label 3800 4000 0    10   ~ 0
+VCC
+Wire Wire Line
+	9900 3200 9200 3200
+Wire Wire Line
+	9200 3300 9200 3200
+Wire Wire Line
+	9200 3200 9200 2800
+Connection ~ 9200 3200
+Text Label 9900 3200 0    10   ~ 0
+VCC
+Wire Wire Line
+	4600 4900 4600 5100
+Wire Wire Line
+	4600 5100 5800 5100
+Wire Wire Line
+	5800 5100 6000 5100
+Wire Wire Line
+	5600 4400 5800 4400
+Wire Wire Line
+	5800 4400 5800 5100
+Connection ~ 5800 5100
+Text Label 4600 4900 0    10   ~ 0
+VCC
+Wire Wire Line
+	3800 4300 3600 4300
+Wire Wire Line
+	3600 4300 3600 4900
+Wire Wire Line
+	3600 4900 3500 4900
+Text Label 3800 4300 0    10   ~ 0
+VCC
+Wire Wire Line
+	10300 5100 10100 5100
+Text Label 10100 5100 0    70   ~ 0
+VCC
+Wire Wire Line
+	6100 5500 7500 5500
+Wire Wire Line
+	7500 5500 7500 4500
+Wire Wire Line
+	7500 4500 8000 4500
+Text Label 6800 5500 2    70   ~ 0
+VCC
+Text Label 7500 4500 0    70   ~ 0
+VCC
+Wire Wire Line
+	5100 3100 5100 3000
+Wire Wire Line
+	5100 3000 5700 3000
+Text Label 5700 3000 2    70   ~ 0
+RXD
+Wire Wire Line
+	9100 5800 8900 5800
+Text Label 9100 5800 0    10   ~ 0
+RXD
+Wire Wire Line
+	5000 3100 5000 2900
+Wire Wire Line
+	5000 2900 5700 2900
+Text Label 5700 2900 2    70   ~ 0
+TXD
+Wire Wire Line
+	9100 5700 8900 5700
+Text Label 9100 5700 0    10   ~ 0
+TXD
+Wire Wire Line
+	3800 3800 2500 3800
+Wire Wire Line
+	2500 3800 2500 3900
+Wire Wire Line
+	2500 3800 2300 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2000 3800 1800 3800
+Wire Wire Line
+	1800 3800 1800 3900
+Wire Wire Line
+	3800 4200 3300 4200
+Wire Wire Line
+	4500 3100 4500 2600
+Wire Wire Line
+	4900 3100 4900 2500
+Wire Wire Line
+	5200 2500 5500 2500
+Wire Wire Line
+	4900 2500 5200 2500
+Connection ~ 5200 2500
+Wire Wire Line
+	4800 3100 4800 2100
+Wire Wire Line
+	5200 2100 5500 2100
+Wire Wire Line
+	4800 2100 5200 2100
+Connection ~ 5200 2100
+Wire Wire Line
+	5700 4000 5600 4000
+Wire Wire Line
+	5600 3900 6800 3900
+Text Label 6800 3900 2    70   ~ 0
+SD_D0
+Wire Wire Line
+	9900 2800 9500 2800
+Text Label 9500 2800 0    70   ~ 0
+SD_D0
+Wire Wire Line
+	6100 4000 6800 4000
+Text Label 6800 4000 2    70   ~ 0
+SD_CLK
+Wire Wire Line
+	11300 3000 11800 3000
+Text Label 11800 3000 2    70   ~ 0
+SD_CLK
+Wire Wire Line
+	5600 4100 6800 4100
+Text Label 6800 4100 2    70   ~ 0
+SD_CMD
+Wire Wire Line
+	11300 3400 11800 3400
+Text Label 11800 3400 2    70   ~ 0
+SD_CMD
+Wire Wire Line
+	5600 3800 6800 3800
+Text Label 6800 3800 2    70   ~ 0
+SD_D1
+Wire Wire Line
+	11300 2800 11800 2800
+Text Label 11800 2800 2    70   ~ 0
+SD_D1
+Wire Wire Line
+	5600 4200 6800 4200
+Text Label 6800 4200 2    70   ~ 0
+SD_D3
+Wire Wire Line
+	9900 3400 9500 3400
+Text Label 9500 3400 0    70   ~ 0
+SD_D3
+Wire Wire Line
+	5600 4300 6800 4300
+Text Label 6800 4300 2    70   ~ 0
+SD_D2
+Wire Wire Line
+	11300 3200 11800 3200
+Text Label 11800 3200 2    70   ~ 0
+SD_D2
+Wire Wire Line
+	6100 5400 7400 5400
+Wire Wire Line
+	7400 5400 7400 3400
+Wire Wire Line
+	7400 3400 8000 3400
+Text Label 6750 5400 2    70   ~ 0
+GPIO0
+Text Label 7700 3400 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	9100 6000 8900 6000
+Text Label 9100 6000 0    10   ~ 0
+GPIO0
+Wire Wire Line
+	5000 4900 5000 5400
+Wire Wire Line
+	5000 5400 5700 5400
+Wire Wire Line
+	4900 4900 4900 5500
+Wire Wire Line
+	4900 5500 5700 5500
+Wire Wire Line
+	10300 4400 10100 4400
+Wire Wire Line
+	10300 4500 10100 4500
+Text Label 10100 4500 0    70   ~ 0
+WW
+Wire Wire Line
+	5600 3700 6400 3700
+Wire Wire Line
+	6400 3700 6400 6200
+Wire Wire Line
+	6400 6200 6800 6200
+Text Label 6800 6200 0    70   ~ 0
+WW
+Wire Wire Line
+	10300 4600 10100 4600
+Text Label 10100 4600 0    70   ~ 0
+CW
+Wire Wire Line
+	5100 4900 5100 6300
+Wire Wire Line
+	5100 6300 6800 6300
+Text Label 6800 6300 0    70   ~ 0
+CW
+Wire Wire Line
+	10300 4700 10100 4700
+Text Label 10100 4700 0    70   ~ 0
+B
+Wire Wire Line
+	4400 4900 4400 6100
+Wire Wire Line
+	4400 6100 6800 6100
+Text Label 6800 6100 0    70   ~ 0
+B
+Wire Wire Line
+	10300 4800 10100 4800
+Text Label 10100 4800 0    70   ~ 0
+G
+Wire Wire Line
+	4500 4900 4500 6000
+Wire Wire Line
+	4500 6000 6800 6000
+Text Label 6800 6000 0    70   ~ 0
+G
+Wire Wire Line
+	10300 4900 10100 4900
+Text Label 10100 4900 0    70   ~ 0
+R
+Wire Wire Line
+	4700 4900 4700 5900
+Wire Wire Line
+	4700 5900 6800 5900
+Text Label 6800 5900 0    70   ~ 0
+R
+Wire Wire Line
+	4400 3100 4400 2600
+Text Label 4400 3100 0    10   ~ 0
+RST
+Wire Wire Line
+	9100 5900 8900 5900
+Text Label 9100 5900 0    10   ~ 0
+RST
+$Comp
+L mini-RGBWW-eagle-import:ESP8266 U1
+U 1 1 94FABF20
+P 4700 4000
+F 0 "U1" H 3880 3050 59  0000 L BNN
+F 1 "ESP8266" H 3880 3000 59  0000 L TNN
+F 2 "mini-RGBWW:QFN32_PAD" H 4700 4000 50  0001 C CNN
+F 3 "" H 4700 4000 50  0001 C CNN
+	1    4700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:L-USL0402_TI L2
+U 1 1 74502220
+P 2500 4200
+F 0 "L2" V 2480 4180 59  0000 R TNN
+F 1 "NA" V 2480 4220 59  0000 R BNN
+F 2 "mini-RGBWW:L0402_TI" H 2500 4200 50  0001 C CNN
+F 3 "" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:L-USL0402_TI L1
+U 1 1 3AE61EB3
+P 1800 4200
+F 0 "L1" V 1780 4180 59  0000 R TNN
+F 1 "NA" V 1780 4220 59  0000 R BNN
+F 2 "mini-RGBWW:L0402_TI" H 1800 4200 50  0001 C CNN
+F 3 "" H 1800 4200 50  0001 C CNN
+	1    1800 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C5
+U 1 1 08C518A0
+P 2100 3800
+F 0 "C5" V 2120 3800 59  0000 L TNN
+F 1 "5.6pF" V 2120 3700 59  0000 R TNN
+F 2 "mini-RGBWW:C0402_TI" H 2100 3800 50  0001 C CNN
+F 3 "" H 2100 3800 50  0001 C CNN
+	1    2100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND013
+U 1 1 85B66688
+P 1800 4700
+F 0 "#GND013" H 1800 4700 50  0001 C CNN
+F 1 "GND" H 1700 4600 59  0000 L BNN
+F 2 "" H 1800 4700 50  0001 C CNN
+F 3 "" H 1800 4700 50  0001 C CNN
+	1    1800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND014
+U 1 1 B9C9B342
+P 2500 4700
+F 0 "#GND014" H 2500 4700 50  0001 C CNN
+F 1 "GND" H 2400 4600 59  0000 L BNN
+F 2 "" H 2500 4700 50  0001 C CNN
+F 3 "" H 2500 4700 50  0001 C CNN
+	1    2500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C4
+U 1 1 A60240AA
+P 2500 3000
+F 0 "C4" H 2520 3000 59  0000 L BNN
+F 1 "100nF" H 2520 2900 59  0000 L TNN
+F 2 "mini-RGBWW:C0402_TI" H 2500 3000 50  0001 C CNN
+F 3 "" H 2500 3000 50  0001 C CNN
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0603_DWS C3
+U 1 1 C3EA450F
+P 1800 3000
+F 0 "C3" H 1780 3000 59  0000 R BNN
+F 1 "10uF" H 1780 2900 59  0000 R TNN
+F 2 "mini-RGBWW:C0603_DWS" H 1800 3000 50  0001 C CNN
+F 3 "" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND017
+U 1 1 CBB20165
+P 1800 3400
+F 0 "#GND017" H 1800 3400 50  0001 C CNN
+F 1 "GND" H 1700 3300 59  0000 L BNN
+F 2 "" H 1800 3400 50  0001 C CNN
+F 3 "" H 1800 3400 50  0001 C CNN
+	1    1800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND018
+U 1 1 195191A6
+P 2500 3400
+F 0 "#GND018" H 2500 3400 50  0001 C CNN
+F 1 "GND" H 2400 3300 59  0000 L BNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:VCC #V05
+U 1 1 DA8F0A76
+P 1000 2800
+F 0 "#V05" H 1000 2800 50  0001 C CNN
+F 1 "3.3V" V 1045 2925 59  0000 L BNN
+F 2 "" H 1000 2800 50  0001 C CNN
+F 3 "" H 1000 2800 50  0001 C CNN
+	1    1000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND019
+U 1 1 F278BC0E
+P 3900 3000
+F 0 "#GND019" H 3900 3000 50  0001 C CNN
+F 1 "GND" H 3800 2900 59  0000 L BNN
+F 2 "" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C6
+U 1 1 C9004646
+P 3300 4300
+F 0 "C6" H 3280 4300 59  0000 R BNN
+F 1 "NA" H 3280 4200 59  0000 R TNN
+F 2 "mini-RGBWW:C0402_TI" H 3300 4300 50  0001 C CNN
+F 3 "" H 3300 4300 50  0001 C CNN
+	1    3300 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND020
+U 1 1 E53A484A
+P 3300 4700
+F 0 "#GND020" H 3300 4700 50  0001 C CNN
+F 1 "GND" H 3200 4600 59  0000 L BNN
+F 2 "" H 3300 4700 50  0001 C CNN
+F 3 "" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:R-EU_R0402_TI R1
+U 1 1 1216EB56
+P 4500 2400
+F 0 "R1" V 4530 2340 59  0000 R TNN
+F 1 "12k" V 4470 2340 59  0000 R BNN
+F 2 "mini-RGBWW:R0402_TI" H 4500 2400 50  0001 C CNN
+F 3 "" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND021
+U 1 1 FF2A2D77
+P 4500 2000
+F 0 "#GND021" H 4500 2000 50  0001 C CNN
+F 1 "GND" H 4400 1900 59  0000 L BNN
+F 2 "" H 4500 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:R-EU_R0402_TI R2
+U 1 1 59A7D61D
+P 5900 4000
+F 0 "R2" H 6020 4020 59  0000 L BNN
+F 1 "200R" H 5780 4020 59  0000 R BNN
+F 2 "mini-RGBWW:R0402_TI" H 5900 4000 50  0001 C CNN
+F 3 "" H 5900 4000 50  0001 C CNN
+	1    5900 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND0126
+U 1 1 88923472
+P 9200 3800
+F 0 "#GND0126" H 9200 3800 50  0001 C CNN
+F 1 "GND" H 9100 3700 59  0000 L BNN
+F 2 "" H 9200 3800 50  0001 C CNN
+F 3 "" H 9200 3800 50  0001 C CNN
+	1    9200 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:VCC #V025
+U 1 1 8734F84A
+P 9200 2700
+F 0 "#V025" H 9200 2700 50  0001 C CNN
+F 1 "3.3V" H 9300 2825 59  0000 R BNN
+F 2 "" H 9200 2700 50  0001 C CNN
+F 3 "" H 9200 2700 50  0001 C CNN
+	1    9200 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:W25Q16BVSSIG U2
+U 1 1 4E0AB7A9
+P 10600 3100
+F 0 "U2" H 11070 3590 59  0000 R TNN
+F 1 "W25Q16BVSSIG" H 11030 2670 59  0000 R TNN
+F 2 "mini-RGBWW:SO8_ATMEL_FLASH" H 10600 3100 50  0001 C CNN
+F 3 "" H 10600 3100 50  0001 C CNN
+	1    10600 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C7
+U 1 1 64A99F0A
+P 9200 3400
+F 0 "C7" H 9180 3400 59  0000 R BNN
+F 1 "100nF" H 9180 3300 59  0000 R TNN
+F 2 "mini-RGBWW:C0402_TI" H 9200 3400 50  0001 C CNN
+F 3 "" H 9200 3400 50  0001 C CNN
+	1    9200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C2
+U 1 1 BC2D9ADB
+P 5700 2500
+F 0 "C2" V 5715 2525 59  0000 L TNN
+F 1 "10pF" V 5620 2525 59  0000 L TNN
+F 2 "mini-RGBWW:C0402_TI" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:C-EUC0402_TI C1
+U 1 1 D8A9286B
+P 5700 2100
+F 0 "C1" V 5715 2125 59  0000 L TNN
+F 1 "10pF" V 5620 2125 59  0000 L TNN
+F 2 "mini-RGBWW:C0402_TI" H 5700 2100 50  0001 C CNN
+F 3 "" H 5700 2100 50  0001 C CNN
+	1    5700 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND022
+U 1 1 A44C21B7
+P 6400 2700
+F 0 "#GND022" H 6400 2700 50  0001 C CNN
+F 1 "GND" H 6300 2600 59  0000 L BNN
+F 2 "" H 6400 2700 50  0001 C CNN
+F 3 "" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:SMALL_SMD_CRYSTAL_1 Q1
+U 1 1 B3E7ED3F
+P 5300 2300
+F 0 "Q1" H 5725 2275 59  0000 R BNN
+F 1 "TSX-3225/26MHz/10PPM/7pF/3.2x2.5mm SMD" H 5050 2275 59  0000 R BNN
+F 2 "mini-RGBWW:NX3225SA" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:GND #GND023
+U 1 1 D027D65F
+P 9700 3100
+F 0 "#GND023" H 9700 3100 50  0001 C CNN
+F 1 "GND" H 9600 3000 59  0000 L BNN
+F 2 "" H 9700 3100 50  0001 C CNN
+F 3 "" H 9700 3100 50  0001 C CNN
+	1    9700 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:VCC #V06
+U 1 1 D34B835F
+P 6100 5100
+F 0 "#V06" H 6100 5100 50  0001 C CNN
+F 1 "3.3V" V 6145 5225 59  0000 L BNN
+F 2 "" H 6100 5100 50  0001 C CNN
+F 3 "" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	0    1    -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:VCC #V07
+U 1 1 8C7A2052
+P 3400 4900
+F 0 "#V07" H 3400 4900 50  0001 C CNN
+F 1 "3.3V" V 3445 5025 59  0000 L BNN
+F 2 "" H 3400 4900 50  0001 C CNN
+F 3 "" H 3400 4900 50  0001 C CNN
+	1    3400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:R-EU_R0402_TI R7
+U 1 1 3A821CDB
+P 5900 5400
+F 0 "R7" H 6020 5420 59  0000 L BNN
+F 1 "200R" H 5780 5420 59  0000 R BNN
+F 2 "mini-RGBWW:R0402_TI" H 5900 5400 50  0001 C CNN
+F 3 "" H 5900 5400 50  0001 C CNN
+	1    5900 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:R-EU_R0402_TI R8
+U 1 1 E7CFDF82
+P 5900 5500
+F 0 "R8" H 6020 5520 59  0000 L BNN
+F 1 "200R" H 5780 5520 59  0000 R BNN
+F 2 "mini-RGBWW:R0402_TI" H 5900 5500 50  0001 C CNN
+F 3 "" H 5900 5500 50  0001 C CNN
+	1    5900 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:1X8 U$1
+U 1 1 89E33A62
+P 10400 4700
+F 0 "U$1" H 10300 5225 50  0000 L BNN
+F 1 "1X8" H 10300 4225 50  0000 L BNN
+F 2 "mini-RGBWW:1X8" H 10400 4700 50  0001 C CNN
+F 3 "" H 10400 4700 50  0001 C CNN
+	1    10400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:1X4 U$3
+U 1 1 6E1B97F5
+P 9200 5800
+F 0 "U$3" H 9100 6125 50  0000 L BNN
+F 1 "1X4" H 9100 5525 50  0000 L BNN
+F 2 "mini-RGBWW:1X4" H 9200 5800 50  0001 C CNN
+F 3 "" H 9200 5800 50  0001 C CNN
+	1    9200 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L mini-RGBWW-eagle-import:VCC #V01
+U 1 1 68FD5B13
+P 8100 4500
+F 0 "#V01" H 8100 4500 50  0001 C CNN
+F 1 "3.3V" V 8145 4625 59  0000 L BNN
+F 2 "" H 8100 4500 50  0001 C CNN
+F 3 "" H 8100 4500 50  0001 C CNN
+	1    8100 4500
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	7400 2200 8600 2200
+Wire Notes Line
+	7400 2300 8600 2300
+Wire Notes Line
+	7400 2400 8600 2400
+Wire Notes Line
+	7700 2500 7700 2100
+Wire Notes Line
+	8000 2100 8000 2500
+Wire Notes Line
+	8300 2100 8300 2500
+Text Notes 7420 2280 0    51   ~ 0
+SDIO
+Text Notes 7420 2380 0    51   ~ 0
+UART
+Text Notes 7420 2480 0    51   ~ 0
+FLASH
+Text Notes 7720 2180 0    51   ~ 0
+MTDO
+Text Notes 8030 2180 0    51   ~ 0
+GPIO0
+Text Notes 8330 2180 0    51   ~ 0
+GPIO2
+Text Notes 7830 2280 0    51   ~ 0
+1
+Text Notes 8130 2480 0    51   ~ 0
+1
+Text Notes 8430 2480 0    51   ~ 0
+1
+Text Notes 8430 2380 0    51   ~ 0
+1
+Text Notes 8130 2280 0    51   ~ 0
+X
+Text Notes 8430 2280 0    51   ~ 0
+X
+Text Notes 7830 2380 0    51   ~ 0
+0
+Text Notes 7830 2480 0    51   ~ 0
+0
+Text Notes 8130 2380 0    51   ~ 0
+0
+Wire Notes Line
+	7400 2500 8600 2500
+Wire Notes Line
+	8600 2100 8600 2500
+Wire Notes Line
+	7400 2100 8600 2100
+Wire Notes Line
+	7400 2100 7400 2500
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name mini-RGBWW)(type KiCad)(uri "$(KIPRJMOD)/mini-RGBWW.pretty")(options "")(descr ""))
+)
